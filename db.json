@@ -1,0 +1,64 @@
+{
+  "post": [
+    {
+      "id": 1,
+      "user": "Bilal",
+      "title": "React Mvc Patter",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 2,
+      "user": "Bilal",
+      "title": "React Mvc Patter",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 3,
+      "user": "Bilal",
+      "title": "Reactasdr",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 2,
+      "user": "Furkan",
+      "title": "React asdtterni???",
+      "text": "Ben bunu öğrendim"
+    },
+    {
+      "id": 1679343679811,
+      "user": "Furkan",
+      "title": "MVC",
+      "text": "bu bir design pattern"
+    },
+    {
+      "id": 4,
+      "user": "Bilal",
+      "title": "React Mvc Patter",
+      "text": "Ben bunu nasıl öğrenirim"
+    },
+    {
+      "id": 6,
+      "user": "Furkan",
+      "title": "React Mvc Patterni???",
+      "text": "Ben bunu öğrendim"
+    },
+    {
+      "id": 1679343679811,
+      "user": "Furkan",
+      "title": "MVC",
+      "text": "bu bir design pattern"
+    },
+    {
+      "id": 1679344040084,
+      "user": "asda ",
+      "title": "asda",
+      "text": "asdsa"
+    },
+    {
+      "id": 1679730100845,
+      "user": "Ramazan",
+      "title": "React",
+      "text": "React çalışmaları çok güzel"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    h1 {
+      text-transform: uppercase;
+      color: rgb(216, 209, 0);
+    }
+  }
+  
+  // Lİste
+  .container {
+    width: 70vw;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  
+    &-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        cursor: pointer;
+        color: rgb(216, 209, 0);
+      }
+    }
+    &-text {
+      margin-top: 20px;
+    }
+  }
+  // Ekleme Sayfası
+  
+  form {
+    width: 50vw;
+    height: 50vh;
+    margin: 200px auto;
+    background-color: rgb(18, 18, 18);
+    padding: 50px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    fieldset {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      border: none;
+  
+      width: 70%;
+      label {
+      }
+      input {
+        padding: 5px 20px;
+        border-radius: 4px;
+      }
+      textarea {
+        resize: vertical;
+        min-height: 50px;
+        max-height: 100px;
+        border-radius: 10px;
+        padding: 20px;
+      }
+    }
+    button {
+      padding: 10px 40px;
+      background-color: gold;
+      color: white;
+      font-weight: bold;
+      border-radius: 20px;
+    }
+  }
+  
+  .modal {
+    position: fixed;
+    height: 80vh;
+    width: 50vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(34, 34, 34);
+    padding: 40px;
+    border-radius: 20px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    h1 {
+      font-size: 19px;
+      margin-bottom: 5px;
+    }
+    h2 {
+      color: white;
+      span {
+        color: gold;
+      }
+    }
+  }
